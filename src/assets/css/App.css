@@ -1,0 +1,65 @@
+/* Reset de base */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Conteneur global pour l'application */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Style du header pour assurer une cohérence */
+header {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+/* Contenu principal */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Pied de page (si nécessaire) */
+footer {
+  background-color: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Boutons globaux */
+button {
+  font-size: 14px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
