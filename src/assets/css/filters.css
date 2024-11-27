@@ -1,0 +1,66 @@
+/* Conteneur principal des filtres */
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Barre de recherche */
+.search-bar {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Section de tri */
+.sort-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.sort-button.active {
+  background-color: #007b85;
+  color: white;
+  font-weight: bold;
+}
+
+/* Slider de prix */
+.price-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.price-slider {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.slider-track {
+  height: 6px;
+  background-color: #ddd;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.slider-thumb {
+  height: 20px;
+  width: 20px;
+  background-color: #007b85;
+  border-radius: 50%;
+  cursor: pointer;
+}
